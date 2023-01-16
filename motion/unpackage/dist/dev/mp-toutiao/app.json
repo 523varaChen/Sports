@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/match/match",
+    "pages/match/medalWall",
+    "pages/mine/index",
+    "pages/mine/auth",
+    "pages/agree/agree"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "iconfontSrc": "static/customicons.ttf",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/uni.png",
+        "selectedIconPath": "static/uni.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/match/match",
+        "icon": "vip-filled",
+        "iconPath": "static/uni.png",
+        "selectedIconPath": "static/uni.png",
+        "text": "赛事"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "icon": "vip-filled",
+        "iconPath": "static/uni.png",
+        "selectedIconPath": "static/uni.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

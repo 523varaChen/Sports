@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+view.data-v-ba5948dc {
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.match-page.data-v-ba5948dc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.match-page .match-pic.data-v-ba5948dc {
+  width: 100%;
+  height: 400rpx;
+}
+.match-page .match-explain.data-v-ba5948dc {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10rpx 20rpx;
+  text-indent: 60rpx;
+}
+.tab-header.data-v-ba5948dc {
+  width: 100%;
+  height: 54rpx;
+  display: flex;
+  background-color: #fff;
+}
+.tab-header .head-item.data-v-ba5948dc {
+  flex: 1;
+  text-align: center;
+}
+.tab-header .navActive.data-v-ba5948dc {
+  border-bottom: 2rpx solid palegreen;
+}
+.swiper.data-v-ba5948dc {
+  width: 100%;
+  overflow-y: scroll;
+  height: calc(100vh - 600rpx);
+  margin-bottom: 100rpx;
+}
+.content.data-v-ba5948dc {
+  flex: 1;
+  height: calc(100vh - 600rpx);
+  margin-bottom: 100rpx;
+  margin-top: 54rpx;
+}
+

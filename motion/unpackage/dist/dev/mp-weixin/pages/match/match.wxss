@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+view.data-v-ba5948dc {
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+page.data-v-ba5948dc {
+  background: #fff;
+}
+page.data-v-ba5948dc {
+  background-color: #fff;
+}
+.match-page.data-v-ba5948dc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.match-page .match-pic.data-v-ba5948dc {
+  width: 100%;
+  height: 200px;
+}
+.match-page .match-explain.data-v-ba5948dc {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  text-indent: 30px;
+}
+.tab-header.data-v-ba5948dc {
+  width: 100%;
+  height: 58rpx;
+  line-height: 58rpx;
+  display: flex;
+}
+.tab-header .head-item.data-v-ba5948dc {
+  flex: 1;
+  text-align: center;
+}
+.tab-header .navActive.data-v-ba5948dc {
+  border-bottom: 2px solid palegreen;
+}
+.swiper.data-v-ba5948dc {
+  width: 100%;
+  overflow-y: scroll;
+  height: calc(100vh - 600px);
+  margin-bottom: 100px;
+}
+.content.data-v-ba5948dc {
+  flex: 1;
+  height: calc(100vh - 600px);
+  margin-bottom: 100px;
+  margin-top: 14px;
+}
+

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+view.data-v-4bd6864f {
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.mine-page.data-v-4bd6864f {
+  width: 100%;
+}
+.mine-page .mine-banner.data-v-4bd6864f {
+  height: 500rpx;
+  background-color: pink;
+}
+.mine-page .mine-nav.data-v-4bd6864f {
+  height: 500rpx;
+  background-color: aqua;
+}
+.mine-page .mine-record.data-v-4bd6864f {
+  height: 500rpx;
+  background-color: aquamarine;
+}
+

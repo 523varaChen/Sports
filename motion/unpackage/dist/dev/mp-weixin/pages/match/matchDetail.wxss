@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+view.data-v-c31ec7fa {
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+page.data-v-c31ec7fa {
+  background: #fff;
+}
+page.data-v-c31ec7fa {
+  background: #fff;
+}
+.detail-page.data-v-c31ec7fa {
+  padding-bottom: 140rpx;
+}
+.detail-page .detail-pic.data-v-c31ec7fa {
+  width: 100%;
+  height: 300rpx;
+}
+.detail-page .detail-content.data-v-c31ec7fa {
+  padding: 0 40rpx;
+}
+.detail-page .detail-content .sub-title.data-v-c31ec7fa {
+  color: #6c6c6c;
+  font-size: 32rpx;
+}
+.detail-page .detail-content .detail-sign.data-v-c31ec7fa {
+  width: 16%;
+  margin-top: 4%;
+  text-align: center;
+  background: #72b522;
+  color: #fff;
+  font-size: 30rpx;
+}
+.detail-page .detail-content .detail-ul.data-v-c31ec7fa {
+  width: 100%;
+  border: 0;
+  border-bottom: 2rpx solid #f5f5f5;
+}
+.detail-page .detail-content .detail-ul .sign-li.data-v-c31ec7fa {
+  width: 100%;
+  display: flex;
+  line-height: 40rpx;
+  font-size: 28rpx;
+  color: #6C6C6C;
+  border-bottom: 2rpx solid #f5f5f5;
+  padding: 30rpx 0 10rpx;
+}
+.detail-page .detail-content .detail-ul .sign-li.data-v-c31ec7fa:last-child {
+  border: 0;
+}
+.detail-page .detail-content .detail-ul .sign-li .sign-title.data-v-c31ec7fa {
+  width: 130rpx;
+}
+.detail-page .detail-content .detail-ul .sign-li .sign-explain.data-v-c31ec7fa {
+  flex: 1;
+}
+.detail-page .content.data-v-c31ec7fa {
+  margin-top: 20rpx;
+}
+.detail-page .table-head.data-v-c31ec7fa {
+  box-shadow: 10rpx 6rpx 6rpx #ccc;
+}
+.detail-page .sign-btn.data-v-c31ec7fa {
+  width: 100%;
+  height: 90rpx;
+  position: fixed;
+  bottom: 0;
+  background-color: #d70a25;
+  line-height: 90rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 36rpx;
+}
+

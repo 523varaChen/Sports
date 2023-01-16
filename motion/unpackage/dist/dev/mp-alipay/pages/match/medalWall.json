@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "勋章墙",
+  "usingComponents": {
+    "list-bar": "/components/common/list-bar/list-bar"
+  }
+}

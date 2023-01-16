@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+view.data-v-4bd6864f {
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+page.data-v-4bd6864f {
+  background: #fff;
+}
+.mine-page.data-v-4bd6864f {
+  width: 100%;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+}
+.mine-page .mine-head.data-v-4bd6864f {
+  box-sizing: border-box;
+  margin: 60rpx auto 20rpx;
+  box-shadow: 0 10rpx 25rpx 0 rgba(0, 0, 0, 0.2);
+  padding: 70rpx 20rpx 40rpx;
+  border-radius: 20rpx;
+}
+.mine-page .mine-head .head-phone.data-v-4bd6864f {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10rpx 0 50rpx;
+  color: #7F7F7F;
+}
+.mine-page .mine-head .head-nickname.data-v-4bd6864f {
+  text-align: center;
+}
+.mine-page .mine-head .head-nickname .nickname-grade.data-v-4bd6864f {
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.mine-page .mine-head .head-nickname .nickname-term.data-v-4bd6864f {
+  font-size: 22rpx;
+  background: #040607;
+  color: #E3D8D8;
+  border-radius: 30rpx;
+  padding: 4rpx;
+  margin-left: 10rpx;
+}
+.mine-page .mine-head .head-li.data-v-4bd6864f {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mine-page .mine-head .head-li .head-title.data-v-4bd6864f {
+  color: #9D9D9D;
+  margin-left: 30rpx;
+}
+.mine-page .mine-head .head-li .head-title .text.data-v-4bd6864f {
+  line-height: 32rpx;
+  vertical-align: text-top;
+  font-size: 24rpx;
+  text-align: center;
+}
+.mine-page .mine-head .mine-avatar.data-v-4bd6864f {
+  position: absolute;
+  top: -50rpx;
+  left: 43%;
+  display: block;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+}
+.mine-page .mine-banner.data-v-4bd6864f {
+  height: 500rpx;
+  background-color: pink;
+}
+.mine-page .mine-nav.data-v-4bd6864f {
+  height: 500rpx;
+  background-color: aqua;
+}
+.mine-page .mine-record.data-v-4bd6864f {
+  height: 500rpx;
+  background-color: aquamarine;
+}
+

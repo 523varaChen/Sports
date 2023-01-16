@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/match/match",
+    "pages/match/medalWall",
+    "pages/mine/index",
+    "pages/mine/auth",
+    "pages/agree/agree"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "uni-app",
+    "titleBarColor": "#fff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "static/uni.png",
+        "activeIcon": "static/uni.png"
+      },
+      {
+        "pagePath": "pages/match/match",
+        "name": "赛事",
+        "icon": "static/uni.png",
+        "activeIcon": "static/uni.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "name": "我的",
+        "icon": "static/uni.png",
+        "activeIcon": "static/uni.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "plugin-wrapper": "/plugin-wrapper"
+  }
+}

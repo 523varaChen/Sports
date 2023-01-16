@@ -1,0 +1,1 @@
+<view class="mine-page data-v-4bd6864f"><view class="mine-banner data-v-4bd6864f"></view><view class="mine-nav data-v-4bd6864f"><button size="mini" data-event-opts="{{[['tap',[['goAuth',['$event']]]]]}}" onTap="__e" class="data-v-4bd6864f">认证</button></view><view class="mine-record data-v-4bd6864f"></view></view>
