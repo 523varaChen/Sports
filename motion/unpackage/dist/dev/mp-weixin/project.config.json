@@ -11,18 +11,14 @@
     "minified": true,
     "newFeature": true,
     "bigPackageSizeSupport": true,
-    "enhance": true,
-    "coverView": true,
-    "showShadowRootInWxmlPanel": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
-    },
-    "packNpmRelationList": []
+    }
   },
   "compileType": "miniprogram",
-  "libVersion": "2.27.0",
+  "libVersion": "2.30.0",
   "appid": "wx40d271ebe6a53bac",
   "projectname": "motion",
   "condition": {},

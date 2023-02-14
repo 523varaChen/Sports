@@ -6,7 +6,12 @@
     "pages/match/matchDetail",
     "pages/mine/index",
     "pages/mine/auth",
-    "pages/agree/agree"
+    "pages/agree/agree",
+    "pages/sports/sports",
+    "pages/community/community",
+    "pages/sports/components/collect",
+    "pages/sports/components/projectType",
+    "pages/mine/login"
   ],
   "subPackages": [],
   "window": {
@@ -30,19 +35,34 @@
       },
       {
         "pagePath": "pages/match/match",
-        "icon": "vip-filled",
         "iconPath": "static/uni.png",
         "selectedIconPath": "static/uni.png",
         "text": "赛事"
       },
       {
+        "pagePath": "pages/sports/sports",
+        "iconPath": "static/uni.png",
+        "selectedIconPath": "static/uni.png",
+        "text": "运动"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "iconPath": "static/uni.png",
+        "selectedIconPath": "static/uni.png",
+        "text": "社区"
+      },
+      {
         "pagePath": "pages/mine/index",
-        "icon": "vip-filled",
         "iconPath": "static/uni.png",
         "selectedIconPath": "static/uni.png",
         "text": "我的"
       }
     ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "motion"
+    }
   },
   "usingComponents": {}
 }

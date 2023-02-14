@@ -60,7 +60,7 @@
 		"usingComponents": true,
 		"permission": {
 			"scope.userLocation": {
-				"desc": "ACRBZ-USDCX-YTA4D-TABWR-E4WDF-HBBTA"
+				"desc": "motion"
 			}
 		}
 	},

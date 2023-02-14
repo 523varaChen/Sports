@@ -1,0 +1,1 @@
+<view class="project-type data-v-8c23e33e"><block wx:for="{{listType}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['selectType',[index]]]]]}}" class="{{['data-v-8c23e33e',index==isActive?'item active':'item']}}" bindtap="__e">{{item.text+''}}</view></block><button class="data-v-8c23e33e">下一步</button></view>

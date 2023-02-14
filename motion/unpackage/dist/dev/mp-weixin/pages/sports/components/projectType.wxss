@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+view.data-v-8c23e33e {
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+page.data-v-8c23e33e {
+  background: #fff;
+}
+.project-type.data-v-8c23e33e {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.project-type .item.data-v-8c23e33e {
+  width: 50%;
+  height: 50px;
+  line-height: 50px;
+  background: #ccc;
+  color: #ffff;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.project-type .active.data-v-8c23e33e {
+  background: #51edc8 !important;
+}
+.project-type button.data-v-8c23e33e {
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+}
+

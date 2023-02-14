@@ -10,12 +10,12 @@
 					</view>
 				</swiper-item>
 			</swiper>
+
 		</uni-swiper-dot>
 		<view class="nav">
 			<uni-grid :show-border="false" :column="5" :highlight="true" @change="changeNav">
 				<uni-grid-item v-for="(item, index) in navList" :index="index" :key="index">
 					<view class="grid-item-box" style="background-color: #fff;">
-
 						<uni-icons :type="item.icon" :size="30" color="#777" />
 						<text class="text">{{item.text}}</text>
 					</view>
@@ -26,7 +26,7 @@
 		<uni-section title='热门推荐'>
 			<list-bar :listInfo='hotProject' :hasLeftTag='true' :hasRightTag='false'></list-bar>
 		</uni-section>
-
+		<button type="default" @click="getuserinfo()">登录</button>
 	</view>
 </template>
 
@@ -113,15 +113,23 @@
 						icon: 'wallet-filled'
 					},
 				],
-				hotProject: []
+				hotProject: [],
+				query: {
+					code: '',
+					encryptedData: "",
+					iv: "",
+					signature: ""
+				},
+				userInfo: {}
 			}
 		},
 		components: {
 			listBar
 		},
 		created() {
-
-			this.init()
+			// 登录
+			// this.getuserinfo()
+			// this.init()
 		},
 		methods: {
 			init() {
@@ -137,6 +145,45 @@
 						this.hotProject = res.project;
 					}
 				})
+			},
+			getuserinfo() {
+				let that = this;
+				uni.getUserProfile({
+					desc: '用户完善个人信息',
+					success: (res) => {
+						console.log(res)
+						let userInformation = res.userInfo;
+						that.query = {
+							...res
+						};
+						that.userInfo = res.userInfo;
+						wx.setStorageSync('userInformation', userInformation)
+						// this.userInformation=userInformation
+						// wx.reLaunch({
+						// 	url: '/pages/mine/login'
+						// })
+						// that.get().then(res => {
+						// 	console.log('query', res)
+						// })
+					},
+					fail: () => {
+						wx.showToast({
+							title: '您取消了登录授权失败',
+							icon: 'error',
+							duration: 2000
+						})
+					}
+				})
+			},
+			async get() {
+				const [err, res] = await uni.login().catch(err => err);
+				if (err || res.errMsg !== 'login:ok') {
+					return uni.showToast({
+						title: '登录失败！'
+					})
+				}
+				console.log('login:', res.code)
+				this.query.code = res.code
 			},
 			changeBanner(e) {
 				this.current = e.detail.current
@@ -172,7 +219,6 @@
 	.uni-swiper-dot-box {
 		width: 100%;
 		height: 100%;
-		// border-radius: 10rpx;
 	}
 
 	.grid-image {
@@ -226,7 +272,6 @@
 		align-items: flex-end;
 	}
 
-
 	.list-item {
 		width: 94%;
 		margin: 0 auto;
@@ -269,7 +314,6 @@
 					font-size: 28rpx;
 					color: #999;
 				}
-
 			}
 		}
 	}

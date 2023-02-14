@@ -44,8 +44,8 @@ page {
   box-sizing: content-box;
 }
 .uni-table-checkbox .checkbox__inner.checkbox--indeterminate {
-  border-color: #007aff;
-  background-color: #007aff;
+  border-color: #2979ff;
+  background-color: #2979ff;
 }
 .uni-table-checkbox .checkbox__inner.checkbox--indeterminate .checkbox__inner-icon {
   position: absolute;
@@ -67,15 +67,15 @@ page {
   background-color: #fff;
 }
 .uni-table-checkbox .checkbox__inner:hover {
-  border-color: #007aff;
+  border-color: #2979ff;
 }
 .uni-table-checkbox .checkbox__inner.is-disable {
   background-color: #F2F6FC;
   border-color: #DCDFE6;
 }
 .uni-table-checkbox .checkbox__inner.is-checked {
-  border-color: #007aff;
-  background-color: #007aff;
+  border-color: #2979ff;
+  background-color: #2979ff;
 }
 .uni-table-checkbox .checkbox__inner.is-checked .checkbox__inner-icon {
   opacity: 1;

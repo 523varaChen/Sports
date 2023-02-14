@@ -1,20 +1,20 @@
 @charset "UTF-8";
 /* 水平间距 */
 /* 水平间距 */
-view {
+view.data-v-064e9cd1 {
   font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
-page {
+page.data-v-064e9cd1 {
   background: #fff;
 }
-.segmented-control {
+.segmented-control.data-v-064e9cd1 {
   display: flex;
   box-sizing: border-box;
   flex-direction: row;
   height: 36px;
   overflow: hidden;
 }
-.segmented-control__item {
+.segmented-control__item.data-v-064e9cd1 {
   display: inline-flex;
   box-sizing: border-box;
   position: relative;
@@ -22,28 +22,28 @@ page {
   justify-content: center;
   align-items: center;
 }
-.segmented-control__item--button {
+.segmented-control__item--button.data-v-064e9cd1 {
   border-style: solid;
   border-top-width: 1px;
   border-bottom-width: 1px;
   border-right-width: 1px;
   border-left-width: 0;
 }
-.segmented-control__item--button--first {
+.segmented-control__item--button--first.data-v-064e9cd1 {
   border-left-width: 1px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-.segmented-control__item--button--last {
+.segmented-control__item--button--last.data-v-064e9cd1 {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.segmented-control__item--text {
+.segmented-control__item--text.data-v-064e9cd1 {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   padding: 6px 0;
 }
-.segmented-control__text {
+.segmented-control__text.data-v-064e9cd1 {
   font-size: 14px;
   line-height: 20px;
   text-align: center;

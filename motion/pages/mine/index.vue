@@ -3,7 +3,7 @@
 		<view class="mine-head">
 			<image src="../../static/avatar/male_1.jpg" class="mine-avatar"></image>
 			<view class="head-nickname">
-				<text class="nickname-grade">梵高-beatuty</text>
+				<text class="nickname-grade">{{userInfo.nickname}}</text>
 				<text class="nickname-term">cvip 3天过期</text>
 			</view>
 			<view class="head-phone">
@@ -46,10 +46,30 @@
 		data() {
 			return {
 				phone: '18736212265',
-				eyeType: false
+				eyeType: false,
+				userInfo: {}
 			}
 		},
+		mounted() {
+			this.userInfo = uni.getStorageSync("userInformation")
+
+			console.log(123, this.userInfo)
+		},
+		computed: {
+			phoneTel: {
+				set(newValue) {
+					return this.userInfo
+				}
+			}
+		},
+		created() {
+
+		},
+
 		methods: {
+			init() {
+
+			},
 			goAuth() {
 				uni.navigateTo({
 					url: '/pages/mine/auth'

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+view {
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+page {
+  background: #fff;
+}
+.collect-page .location-map {
+  width: 300px;
+  height: 200px;
+}
+.collect-page .box-bg {
+  background-color: #F5F5F5;
+  padding: 5px 0;
+}
+.collect-page .city {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 4px;
+}
+.collect-page .input-view {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  background-color: #f8f8f8;
+  height: 30px;
+  border-radius: 15px;
+  padding: 0 15px;
+  flex-wrap: nowrap;
+  margin: 7px 0;
+  line-height: 30px;
+}
+.collect-page .input-uni-icon {
+  line-height: 30px;
+}
+.collect-page .nav-bar-input {
+  height: 30px;
+  line-height: 30px;
+  width: 370rpx;
+  padding: 0 5px;
+  font-size: 12px;
+  background-color: #f8f8f8;
+}
+
