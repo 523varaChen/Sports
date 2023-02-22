@@ -8,12 +8,6 @@
 			}
 		},
 		{
-			"path": "pages/component/component",
-			"style": {
-				"navigationBarTitleText": "22",
-				"enablePullDownRefresh": false
-			}
-		}, {
 			"path": "pages/api/api",
 			"style": {
 				"navigationBarTitleText": "33",
@@ -38,14 +32,12 @@
 				"navigationBarTitleText": "我的",
 				"enablePullDownRefresh": false
 			}
-
 		}, {
 			"path": "pages/mine/login",
 			"style": {
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false
 			}
-
 		}, {
 			"path": "pages/component/view/address",
 			"style": {
@@ -54,18 +46,13 @@
 				"app-plus": {
 					"titleNView": {
 						"buttons": [{
-								"color": "#99ccff",
-								"fontSize": "28rpx",
-								"text": "新增收货地址"
-							}
-
-						]
-
+							"color": "#99ccff",
+							"fontSize": "28rpx",
+							"text": "新增收货地址"
+						}]
 					}
-
 				}
 			}
-
 		}, {
 			"path": "pages/component/view/addAddress",
 			"style": {
@@ -78,6 +65,20 @@
 				"navigationBarTitleText": "详情",
 				"enablePullDownRefresh": false
 			}
+		}, {
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/petInfo",
+			"style": {
+				"navigationBarTitleText": "宠物个人信息",
+				"enablePullDownRefresh": false
+			}
+
 		}
 	],
 	"tabBar": {
@@ -97,7 +98,7 @@
 				"iconPath": "static/image/class.png",
 				"selectedIconPath": "static/image/st_class.png"
 			}, {
-				"pagePath": "pages/class/class",
+				"pagePath": "pages/order/order",
 				"text": "订单受理",
 				"iconPath": "static/image/order.png",
 				"selectedIconPath": "static/image/st_order.png"

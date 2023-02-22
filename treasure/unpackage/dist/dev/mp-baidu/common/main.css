@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+@font-face {
+	font-family: 'iconfont';
+	/* Project id 3895375 */
+	src: url('//at.alicdn.com/t/c/font_3895375_rdjnsy6tkur.woff2?t=1676362863812') format('woff2'),
+		url('//at.alicdn.com/t/c/font_3895375_rdjnsy6tkur.woff?t=1676362863812') format('woff'),
+		url('//at.alicdn.com/t/c/font_3895375_rdjnsy6tkur.ttf?t=1676362863812') format('truetype'),
+		url('//at.alicdn.com/t/c/font_3895375_rdjnsy6tkur.svg?t=1676362863812#iconfont') format('svg');
+}
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-saomiao:before {
+	content: "\e65b";
+}
+.icon-shengbo:before {
+	content: "\e65c";
+}
+.icon-biaodan:before {
+	content: "\e65d";
+}
+.icon-tongzhi:before {
+	content: "\e65e";
+}
+.icon-xiaoxi:before {
+	content: "\e65f";
+}
+.icon-fankui:before {
+	content: "\e660";
+}
+.icon-yuding:before {
+	content: "\e661";
+}
+.icon-yezhuweiyuanhui:before {
+	content: "\e662";
+}
+.icon-xitongfanmang:before {
+	content: "\e663";
+}
+.icon-shibai:before {
+	content: "\e664";
+}
+.icon-chenggong:before {
+	content: "\e665";
+}
+.icon-tianjia:before {
+	content: "\e666";
+}
+.icon-a-shejiaoMyCommunity:before {
+	content: "\e667";
+}
+.icon-a-wuyeMyEstate:before {
+	content: "\e668";
+}
+.icon-shouyeHome:before {
+	content: "\e669";
+}
+.icon-Mewode:before {
+	content: "\e66a";
+}
+.icon-shijian:before {
+	content: "\e674";
+}
+.icon-riqi:before {
+	content: "\e675";
+}
+.icon-qian:before {
+	content: "\e676";
+}
+.icon-shequ:before {
+	content: "\e677";
+}
+.icon-liwu:before {
+	content: "\e679";
+}
+.icon-shezhi:before {
+	content: "\e67a";
+}
+.icon-tiezi:before {
+	content: "\e67b";
+}
+.icon-lingquyuechi:before {
+	content: "\e684";
+}
+.icon-dianzan:before {
+	content: "\e686";
+}
+.icon-qingli:before {
+	content: "\e68d";
+}
+.icon-xinfeng:before {
+	content: "\e68e";
+}
+.icon-shipin:before {
+	content: "\e68f";
+}
+.icon-shouji:before {
+	content: "\e690";
+}
+.icon-zhengyan:before {
+	content: "\e694";
+}
+.icon-biyan:before {
+	content: "\e695";
+}
+.icon-biaojiyidu2:before {
+	content: "\e696";
+}
+.icon-dingwei:before {
+	content: "\e699";
+}
+.icon-facerenlianshibie:before {
+	content: "\e69a";
+}
+.icon-dingdanshouli:before {
+	content: "\e6ae";
+}
+.icon-canting:before {
+	content: "\e6b1";
+}
+.icon-yushi:before {
+	content: "\e6b2";
+}
+/* <span class="iconfont icon-dingwei"></span> */
+.baseBtn {
+  width: 80%;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 6px;
+  padding: 0;
+  margin: 20px auto;
+  background-color: rgba(0, 122, 255, 0.6);
+  border-radius: 30px;
+  color: #ffffff;
+}
+.primaryLightBtn {
+  background: rgba(0, 122, 255, 0.6);
+}
+.primaryBtn {
+  background: #007aff;
+}
+.primaryDarkBtn {
+  background: #0062cc;
+}
+.noData {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+.container {
+  padding: 15px;
+}
+

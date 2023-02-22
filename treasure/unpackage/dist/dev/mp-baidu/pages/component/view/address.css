@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.ul .title {
+  font-size: 14px;
+  background-color: #f9f9f9;
+  padding: 8px 16px;
+  color: #333;
+}
+.ul .li {
+  background-color: #fff;
+  font-size: 14px;
+  padding: 8px 16px;
+  position: relative;
+}
+.ul .li::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 1px;
+  -webkit-transform: scaleY(0.5);
+          transform: scaleY(0.5);
+  background-color: #e5e5e5;
+}
+.ul .li .head .tag {
+  background-color: #2979ff;
+  border-color: #2979ff;
+  color: #fff;
+  padding: 1px 3px;
+  font-size: 12px;
+  border-radius: 2px;
+}
+.ul .li .head .company {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.ul .li .body {
+  margin: 8px 0;
+  position: relative;
+}
+.ul .li .body text {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #999;
+}
+.ul .li .body .check {
+  position: absolute;
+  top: -4px;
+  right: 10px;
+  vertical-align: middle;
+}
+.ul .li .foot {
+  font-size: 14px;
+  color: #333;
+}
+.ul .li .foot text {
+  font-size: 10px;
+  font-weight: 300;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  padding: 1px 2px;
+  margin: 0 2px;
+}
+.uni-data-checklist {
+  flex: 0;
+}
+.uni-data-checklist .uni-label-pointer {
+  margin: 0px !important;
+}
+.uni-data-checklist .uni-label-pointer .checkbox__inner {
+  width: 12px !important;
+  height: 12px !important;
+}
+.uni-data-checklist .uni-label-pointer .checkbox__inner .checkbox__inner-icon {
+  position: absolute;
+  top: 1px !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: auto !important;
+  height: 6px !important;
+  width: 3px !important;
+}
+

@@ -30,7 +30,7 @@
 				<uni-grid-item v-for="(item, index) in navList" :index="index" :key="index">
 					<view class="grid-item-box" style="background-color: #fff;">
 						<!-- <uni-icons type="image" :size="30" color="#777" /> -->
-						<span class="iconfont icon-dingwei"></span>
+						<span :class="'iconfont icon-' + item.url" style="font-size:20px"></span>
 						<text class="text">{{ item.text }}</text>
 					</view>
 				</uni-grid-item>
@@ -130,43 +130,48 @@ export default {
 				},
 				{
 					url: 'yushi',
-					text: '上门洗护'
+					text: '上门洗护',
+					badge: '0',
+					picClor: '',
+					textColor: '',
+					type: 'primary'
 				},
 				{
-					url: '/static/c7.png',
-					text: '附近医院'
+					url: 'yuding',
+					text: '附近医院',
+					badge: '0',
+					picClor: '',
+					textColor: '',
+					type: 'primary'
 				},
-				{
-					url: '/static/c2.png',
-					text: '生产陪护',
-					badge: '1',
-					type: 'success'
-				},
-				{
-					url: 'a-shejiaoMyCommunity',
-					text: '闲置集市',
-					badge: '99',
-					type: 'warning'
-				},
-				{
-					url: 'shequ',
-					text: '爱心领养',
-					badge: '2',
-					type: 'error'
-				},
+				{ url: 'Mewode', text: '票务代理', badge: '0', picClor: '', textColor: '', type: 'primary' },
+				{ url: 'a-shejiaoMyCommunity', text: '闲置集市', badge: '0', picClor: '', textColor: '', type: 'primary' },
+				{ url: 'shequ', text: '爱心领养', badge: '0', picClor: '', textColor: '', type: 'primary' },
 				{
 					url: 'yezhuweiyuanhui',
-					text: '流浪救助'
+					text: '流浪救助',
+					badge: '0',
+					picClor: '',
+					textColor: '',
+					type: 'primary'
 				},
 				{
 					url: 'liwu',
-					text: '商家推荐'
+					text: '商家推荐',
+					badge: '0',
+					picClor: '',
+					textColor: '',
+					type: 'primary'
 				},
 				{
 					url: 'a-wuyeMyEstate',
-					picClor: '',
+
 					text: '更多',
-					textColor: ''
+					textColor: '',
+					badge: '0',
+					picClor: '',
+					textColor: '',
+					type: 'primary'
 				}
 			]
 		};
@@ -227,7 +232,7 @@ export default {
 			this.navList[index].badge && this.navList[index].badge++;
 
 			uni.showToast({
-				title: `点击第${index + 1}个宫格`,
+				title: `业务正在扩展`,
 				icon: 'none'
 			});
 		}

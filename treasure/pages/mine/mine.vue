@@ -22,10 +22,20 @@
 				<view class="head-title"><text class="text">Lv.6</text></view>
 			</view>
 		</view>
-		<span class="iconfont icon-dingwei"></span>
-		<!-- <view class="mine-nav"><button size="mini" @click="goAuth">认证</button></view> -->
+		<view class="mine-nav">
+			<uni-grid :column="3" :highlight="true" :show-border="false">
+				<uni-grid-item v-for="(item, index) in petList" :index="index" :key="index">
+					<view class="grid-item-box" style="background-color: #fff;">
+						<uni-icons :type="item.icon" :size="32" color="#777" />
+						<text class="text">{{ item.title }}</text>
+					</view>
+				</uni-grid-item>
+			</uni-grid>
+		</view>
 		<view class="mine-section">
-			<uni-list><uni-list-item :show-extra-icon="true" showArrow :extra-icon="extraIcon" title="列表左侧带扩展图标" rightText="兼职" /></uni-list>
+			<uni-list>
+				<uni-list-item v-for="(item, index) in list" :key="index" :show-extra-icon="true" showArrow :extra-icon="item.extraIcon" :title="item.title" :to="item.link" />
+			</uni-list>
 		</view>
 		<view class="mine-record"></view>
 	</view>
@@ -36,6 +46,30 @@ const reg = /^(\d{3})\d{4}(\d{4})$/;
 export default {
 	data() {
 		return {
+			list: [
+				{
+					id: 1,
+					title: '宠物登记',
+					link: '/pages/mine/petInfo',
+					rightText: '',
+					extraIcon: {
+						color: '#4cd964',
+						size: '22',
+						type: 'gear-filled'
+					}
+				},
+				{
+					id: 2,
+					title: '我的订单',
+					link: '/pages/mine/login',
+					rightText: '兼职',
+					extraIcon: {
+						color: '#4cd964',
+						size: '22',
+						type: 'gear-filled'
+					}
+				}
+			],
 			phone: '18736212265',
 			eyeType: false,
 			userInfo: {},
@@ -43,7 +77,21 @@ export default {
 				color: '#4cd964',
 				size: '22',
 				type: 'gear-filled'
-			}
+			},
+			petList: [
+				{
+					title: '日历',
+					icon: 'calendar'
+				},
+				{
+					title: '健康监测',
+					icon: 'upload'
+				},
+				{
+					title: 'VR/AI',
+					icon: 'tune'
+				}
+			]
 		};
 	},
 	mounted() {
@@ -90,13 +138,13 @@ export default {
 <style lang="scss" scoped>
 .mine-page {
 	width: 100%;
-	padding: 0 40rpx;
+	padding: 40px 40rpx;
 	box-sizing: border-box;
-
+	background: #f8f8f8;
 	.mine-head {
 		// width: 90%;
 		box-sizing: border-box;
-		margin: 60rpx auto 20rpx;
+		// margin: 60rpx auto 20rpx;
 		box-shadow: 0 10rpx 25rpx 0 rgba(0, 0, 0, 0.2);
 		padding: 70rpx 20rpx 40rpx;
 		border-radius: 20rpx;
@@ -147,7 +195,7 @@ export default {
 
 		.mine-avatar {
 			position: absolute;
-			top: -50rpx;
+			top: 15px;
 			left: 43%;
 			display: block;
 			width: 100rpx;
@@ -162,13 +210,30 @@ export default {
 	}
 
 	.mine-nav {
-		height: 500rpx;
-		background-color: aqua;
+		background: #fff;
+		margin: 10px 0 20px;
+		box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+		border-radius: 6px;
+		overflow: hidden;
+		.grid-item-box {
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+
+			.text {
+				font-size: 14px;
+			}
+		}
 	}
 
 	.mine-record {
 		height: 500rpx;
 		background-color: aquamarine;
+	}
+	.mine-section {
+		background: #fff;
 	}
 }
 </style>
